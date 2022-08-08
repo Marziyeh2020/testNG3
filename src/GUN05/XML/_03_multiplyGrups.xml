@@ -1,0 +1,28 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suit 1">
+    <test  name="Test 1">
+        <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="GUN05._01_Grups"> </class>
+        </classes>
+    </test>
+
+
+    <test  name="Test 2">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="GUN05._01_Grups"> </class>
+        </classes>
+    </test>
+
+
+</suite>

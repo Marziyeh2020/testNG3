@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suit 1">
+    <test name="Test 1">
+        <parameter name="mesaj" value="ı can do it.."></parameter>
+        <classes>
+            <class name="GUN05._02_ConcatUs"></class>
+        </classes>
+    </test>
+</suite>

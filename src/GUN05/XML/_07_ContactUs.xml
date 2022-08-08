@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suit 1">
+    <test name="Test 1">
+        <parameter name="mesaj" value="ı can do it.."></parameter>
+        <classes>
+            <class name="GUN05._02_ConcatUs"></class>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <parameter name="mesaj" value="we have learning cucumber in next week"></parameter>
+        <classes>
+            <class name="GUN05._02_ConcatUs"></class>
+        </classes>
+    </test>
+</suite>
